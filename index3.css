@@ -1,0 +1,102 @@
+body{
+    background-color: rgba(77, 74, 74, 0.644);
+}
+#h1{
+    color: rgb(129, 12, 12);
+    font-size: 50px;
+    font-weight: 700;
+    font-family: Chivo Mono;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(204, 109, 109);
+}
+li{
+    float: left;
+    border-right: 1px solid rgb(244, 243, 243);
+}
+#li1{float:right}
+li:last-child{
+    float: right;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover:not(.lasthome){
+    background-color: grey;
+}
+.lasthome{
+    background-color: aqua;
+}
+form{
+    float:right;
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 2px solid rgb(157, 100, 100);
+    border-radius: 4px;
+}
+input{
+    width: 25%;
+    padding: 5px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(139, 56, 56);
+    border-radius: 4px;
+}
+div.galery{
+    border: 1px solid rgb(64, 59, 59);
+}
+div.galery:hover{
+    width: 100%;
+    height: auto;
+}
+div.describe{
+    padding: 15px;
+    text-align: end;
+}
+*{
+    box-sizing: border-box;
+}
+.drive{
+    padding: 0 5px;
+    float: left;
+    width: 25%;
+}
+@media  only screen and (max-width: 800px) {
+    .drive{
+        width: 50%;
+        margin: 5px 0;
+    }
+}
+@media only screen and (max-width: 500px){
+  .drive{
+    width: 100%;
+  }  
+}
+.some-container{
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin: 5px;
+}
+p{
+    margin: 3px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: rgb(18, 71, 119);
+    text-shadow: 2px 2px 5px rgb(248, 13, 13);
+    text-indent: 10px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+    word-spacing: 5px;
+}
